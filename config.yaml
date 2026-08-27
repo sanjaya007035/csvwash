@@ -1,0 +1,12 @@
+# column renames applied before cleaning
+rename:
+  "Customer Name": customer_name
+  "Order Date": order_date
+
+# columns parsed as datetimes
+dates:
+  - order_date
+
+# columns dropped entirely
+drop:
+  - internal_notes
